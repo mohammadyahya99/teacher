@@ -45,7 +45,10 @@ class Addcourse extends Component {
               onChange={this.timeChanged}
               value={this.state.inputtime}
             >
-              <option>9:00-10:30</option>
+              <option value="" disabled selected>
+                Course Time
+              </option>
+              <option>9:30-11:00</option>
               <option>12:30-2:00</option>
             </select>
 
@@ -54,6 +57,9 @@ class Addcourse extends Component {
               onChange={this.dayChanged}
               value={this.state.inputday}
             >
+              <option value="" disabled selected>
+                Course Days
+              </option>
               <option>Sunday/Tuesday</option>
               <option>Monday/Wednesday</option>
             </select>

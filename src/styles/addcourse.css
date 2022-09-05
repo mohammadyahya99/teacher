@@ -3,7 +3,6 @@
   justify-content: center;
 }
 input {
-  font-family: "Aboreto", cursive;
   border: 0;
   background: none;
   margin-left: 30px;
@@ -27,8 +26,6 @@ input:focus {
   background-color: #256d85;
   margin-left: 35%;
   border: none;
-
-  font-family: "Aboreto", cursive;
   border-radius: 15px;
   width: 200px;
   font-size: larger;
@@ -49,7 +46,6 @@ input:focus {
   margin: 40px auto;
 }
 h1 {
-  font-family: "Aboreto", cursive;
   margin-left: 35%;
 }
 .drop {

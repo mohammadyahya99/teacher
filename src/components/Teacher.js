@@ -1,7 +1,11 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "../styles/teacher.css";
 import Addcourse from "./Addcourse";
 import Course from "./Course";
+import Table from "./Table";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Profile from "./Profile";
 
 class Teacher extends Component {
   constructor() {
@@ -38,10 +42,13 @@ class Teacher extends Component {
     return (
       <div className="teacher">
         <div className="nav">
-          <button className="myProfile">My Profile</button>
+          <Link to="/Profile">
+            <button className="myProfile">My Profile</button>
+          </Link>
         </div>
         <Addcourse add={this.add} />
         <hr></hr>
+        <Table />
         {this.state.courses.map((t) => (
           <Course data={t} delete={this.delete} />
         ))}
