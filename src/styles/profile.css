@@ -60,7 +60,7 @@ h3 {
   display: none;
 }
 #box {
-  height: 97%;
+  height: 100%;
   width: 50%;
   text-align: center;
   padding: 50px;
@@ -91,4 +91,28 @@ h3 {
 }
 h4 {
   display: inline;
+}
+.modifyButton {
+  background: #01dbdf;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  width: 150px;
+}
+.modifyContainer {
+  background: none;
+  margin-left: 37%;
+  display: block;
+  text-align: center;
+  border: 2px solid #256d85;
+  outline: none;
+  color: rgb(14, 13, 13);
+  text-decoration: none;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  width: 100px;
+}
+.errorMassege {
+  color: red;
 }
