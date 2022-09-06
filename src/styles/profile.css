@@ -89,9 +89,7 @@ h3 {
 .newData {
   grid-template-rows: 1fr;
 }
-h4 {
-  display: inline;
-}
+
 .modifyButton {
   background: #01dbdf;
   height: 50px;
